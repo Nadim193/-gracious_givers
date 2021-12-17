@@ -1,0 +1,183 @@
+    div#box {
+        margin-top: 85px;
+        border-radius: 5px;
+        background-color: white;
+        padding: 15px;
+        margin-left: -34px;
+    }
+    
+    div#pending {
+        width: 345px;
+        padding: 64px;
+        /* border: 3px solid green; */
+        margin-left: 60px;
+        text-align: justify;
+        border-radius: 8px;
+        background-color: #4976E5;
+        color: black;
+        font-family: math;
+    }
+    
+    div#accepted {
+        width: 345px;
+        padding: 60px;
+        /* border: 3px solid green; */
+        margin-left: 425px;
+        margin-top: -157px;
+        border-radius: 8px;
+        background-color: #7CC5FA;
+        color: black;
+        font-family: math;
+    }
+    
+    div#completed {
+        width: 345px;
+        padding: 60px;
+        /* border: 3px solid green; */
+        margin-left: 787px;
+        margin-top: -157px;
+        border-radius: 8px;
+        background-color: #9D70CC;
+        color: black;
+        font-family: math;
+    }
+    
+    div#rejected {
+        width: 345px;
+        padding: 60px;
+        /* border: 3px solid green; */
+        margin-left: 1149px;
+        margin-top: -157px;
+        border-radius: 8px;
+        background-color: #85D1B3;
+        color: black;
+        font-family: math;
+    }
+    
+    div#line {
+        margin-top: 70px;
+    }
+    
+    input[type=password],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+    
+    div#change_password {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    
+    div#total {
+        margin-top: -10px;
+    }
+    
+    div#profile {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    
+    form label {
+        font-size: 18px;
+        padding: 7px;
+    }
+    
+    .formerror {
+        color: red;
+    }
+    
+    .succ {
+        color: green;
+        margin-left: 665px;
+    }
+    
+    div#lable {
+        font-size: 18px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+    
+    label#text {
+        margin: 2px 0px 0px 666px;
+    }
+    
+    div#lable {
+        padding: 10px;
+        background-color: cornflowerblue;
+        font-family: math;
+        border-radius: 3px;
+    }
+    
+    div#post {
+        padding: auto;
+        background-color: #FFFFFF;
+        border-color: steelblue;
+        border-radius: 5px;
+        text-align: justify;
+        border-style: solid;
+        margin: 30px 0px 25px 15px;
+    }
+    
+    div#title {
+        padding: 9px;
+        background-color: steelblue;
+        border-radius: 2px;
+        text-align: justify;
+    }
+    
+    div#contain {
+        padding: 8px;
+        background-color: #FFFFFF;
+        text-align: justify;
+    }
+    
+    .to-top {
+        background: white;
+        position: fixed;
+        bottom: 16px;
+        right: 32px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        color: #1f1f1f;
+        text-decoration: none;
+        opacity: 0;
+        pointer-events: none;
+        transition: all .4s;
+    }
+    
+    .to-top.active {
+        bottom: 32px;
+        pointer-events: auto;
+        opacity: 1;
+    }

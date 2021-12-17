@@ -1,0 +1,19 @@
+.logo {
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+.logo div {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo img {
+    height: 70px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 15px;
+    border-radius: 40px;
+}

@@ -1,0 +1,4 @@
+div.row {
+    position: -webkit-sticky;
+    position: sticky;
+}

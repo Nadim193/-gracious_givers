@@ -1,0 +1,31 @@
+:root {
+    --underline-height: 0.5em;
+    --transition-duration: 0.5s;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background: whitesmoke;
+    min-height: 100vh;
+    color: black;
+}
+
+p {
+    display: inline-block;
+    z-index: 10;
+    width: 20%;
+    padding: 1em 0;
+}
+
+img {
+    cursor: pointer;
+    text-align: left;
+}
+
+nav.full {
+    padding: 5px;
+    font-weight: bold;
+    background: white;
+    text-align: center;
+    font-size: 19px;
+}
